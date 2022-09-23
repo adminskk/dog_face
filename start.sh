@@ -1,7 +1,7 @@
 #!/bin/sh
 
 #Xray版本
-AUUID=cab33668-e071-4c28-875a-97af67ea299f
+AUUID=f89ebd3b-bbd4-4f97-9503-9a98e0f3084e
 CADDYIndexPage=https://www.free-css.com/assets/files/free-css-templates/download/page283/medinova.zip
 VER=`wget -qO- "https://api.github.com/repos/XTLS/Xray-core/releases/latest" | sed -n -r -e 's/.*"tag_name".+?"([vV0-9\.]+?)".*/\1/p'`
 mkdir /xraybin && cd /xraybin
